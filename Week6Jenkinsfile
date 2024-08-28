@@ -9,7 +9,7 @@ pipeline{
                 always{
                     mail to: "aniraj2020@gmail.com",
                     subject: "Build Status Email",
-                    body: "Build log attached!"
+                    body: "Please find the Build log attached!"
                 }
             }
         }
